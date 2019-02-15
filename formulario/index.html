@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+    <meta charset="UTF-8">
+    <title>FORMULARIO</title>
+  </head>
 
-  <title>FORMULARIO</title>
-</head>
-
-<body>
-
-
-  <h1>FORMULARIO</h1><br />
-  <div>
-    <h2><img src="/assets/img/Login.png"></h2>
-  </div>
-
-  <div>
-    <form name="login" action="./VIDA/mi_vida.html" method="post">
-      <label class="Log">NOMBRE: </label><input name="user" type="text" required /></br>
-      <label class="Log">CONTRASEÑA: </label><input name="pass" type="password" required></br>
-      <input type="submit" />
-    </form>
-  </div>
-  </div>
-
-
-
-</body>
+  <body>
+    <h1>FORMULARIO</h1>
+    <div>
+      <ul>
+        <li><a href="/vida/">Vida</a></li>
+        <li><a href="/">Indice</a></li>
+        <li><a href="/videos/">Videos</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2><img src="/assets/img/Login.png"></h2>
+    </div>
+    <div>
+      <form name="login" action="/tabla/" method="post">
+        <label class="Log">NOMBRE: </label><input name="user" type="text" required /></br>
+        <label class="Log">CONTRASEÑA: </label><input name="pass" type="password" required></br>
+        <input type="submit" />
+      </form>
+    </div>
+    </div>
+  </body>
 
 </html>
