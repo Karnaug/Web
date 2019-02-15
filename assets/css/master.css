@@ -23,7 +23,7 @@
     display: block;
     position: fixed;
     z-index: 2;
-    background-image: url("./IMAGENES/Murloc.png");
+    background-image: url("/assets/img/murloc.png");
     background-repeat: no-repeat;
     -webkit-clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
@@ -68,10 +68,10 @@
 
  
 
-  body {
+  /*body {
 
-    background-image: url("./IMAGENES/hunmurloc.png");
+    background-image: url("/assets/img/hunmurloc.png");
     background-repeat: no-repeat;
 
     background-size: 100%;
-  }
+  }*/
