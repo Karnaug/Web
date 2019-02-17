@@ -3,6 +3,7 @@
 
     <head>
         <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <meta charset="UTF-8">
         <title>VIDEOS</title>
     </head>
@@ -21,8 +22,16 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/askHMKqQJvk" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zphXkDg6eYs" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
         </div>
+        <script>
+            $(window).scroll(function () {
+                if ($(window).scrollTop() == 0) { $("#murloc").removeClass("mur") } else { $("#murloc").addClass("mur") }
+            })
+        </script>
     </body>
 
 </html>

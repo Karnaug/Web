@@ -3,6 +3,7 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <title>MI PERSONA</title>
   </head>
@@ -10,7 +11,7 @@
   <body>
     <nav>
       <ul id="nav-menu">
-        <li><a href="/"><img src="/assets/img/murloc.png"></a></li>
+        <li><a href="/"><img src="/assets/img/murloc.png" id="murloc"></a></li>
         <li><a href="/formulario/">Formulario</a></li>
         <li><a href="#">Vida</a></li>
         <li><a href="/videos/">Videos</a></li>
@@ -90,6 +91,11 @@
       </div>
       <div>
       </div>
+      <script>
+        $(window).scroll(function () {
+          if ($(window).scrollTop() == 0) { $("#murloc").removeClass("mur") } else { $("#murloc").addClass("mur") }
+        })
+      </script>
   </body>
 
 </html>
