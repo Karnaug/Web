@@ -1,18 +1,21 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-image: url(/assets/img/hunmurloc.png);
+    
 }
 
 nav{
     width: 100%; 
     position: fixed; 
+    z-index: 100;
 }
 
 #nav-menu{
     list-style: none;
     padding: 15px;
     margin: 0;
-    background-color: #2aa5955b;
+    background-color: #2aa595e0;
 }
 
 #nav-menu > li{
@@ -36,8 +39,9 @@ nav{
 }
 
 #content{
-    background: red;
-    
+    width: 100%;
+    margin-top: 150px;
+    position: absolute;
 }
 
 #content > div.title{
@@ -46,12 +50,41 @@ nav{
 }
 #content > div.text-box{
     margin: 100px;
-    
-    background: yellow;
+    border-style: solid;
+    border-width: 7px;
+    border-color:  #2aa595;
+    background: rgba(255, 255, 255, 0.555);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    padding: 5px;
 }
 
 
 #content > div > p.text{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+iframe{
+    margin:20px;
 }
 
+div.login{
+    text-align: center;
+    width: auto;
+}
+
+table.visual {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:50px;
+    text-align: center;
+    width: 100%;
+    }  
+    td.format{
+        font-size: 65px;
+        color: rgb(94, 12, 12);
+    }
+   table.visual {
+       border-spacing: 50px;
+   }
